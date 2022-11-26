@@ -1,0 +1,98 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(0, 0, 0, 0.309);
+  overflow-x: hidden;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  border-bottom: 1px solid #ececec;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top {
+}
+
+.top_list {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* вертикальний текст */
+.top__title {
+  font-weight: 500;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  background: linear-gradient(
+    358deg,
+    #0fdac5 4.61%,
+    #ebdcff 57.91%,
+    #ff98f3 92.2%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.top__titleII {
+  font-weight: 500;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  writing-mode: vertical-lr;
+  background: linear-gradient(
+    358deg,
+    #0fdac5 4.61%,
+    #ebdcff 57.91%,
+    #ff98f3 92.2%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
