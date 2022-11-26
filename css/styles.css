@@ -56,9 +56,6 @@ a {
   margin-right: auto;
 }
 
-.top {
-}
-
 .top_list {
   display: flex;
   justify-content: space-evenly;
