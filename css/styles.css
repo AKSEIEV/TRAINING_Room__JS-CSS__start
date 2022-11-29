@@ -56,10 +56,11 @@ a {
   margin-right: auto;
 }
 
-.top_list {
+ul.top-list {
   display: flex;
   justify-content: space-evenly;
 }
+
 /* вертикальний текст */
 .top__title {
   font-weight: 500;

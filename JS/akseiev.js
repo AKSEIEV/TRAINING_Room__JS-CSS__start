@@ -1,3 +1,4 @@
+//строгий режим типу >
 "use strict";
 // Це коментар. Далі йде увесь код JS-файлу
 
@@ -30,3 +31,4 @@ const guestName = "Ківі";
 const roomNumber = 105;
 const greeting = `якщо дасиш мені ${roomNumber} доларов, я продам тебе ${roomNumber} ${guestName}!`; 
 console.log(greeting); //якщо дасиш мені 105 доларов, я продам тебе 105 Ківі!
+
