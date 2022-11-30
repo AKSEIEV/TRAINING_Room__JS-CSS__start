@@ -77,3 +77,25 @@ console.log(Math.random() * (29 - 18) + 18);   // KAAAAAAAAAAAAAAAIIIIIIIIFFFFFF
 console.log(Math.round(4.1)); //роунд округляє до цілого якшо потрібно 4.1=4 , 4.6=5
 //можна так обгортати _ ахірєть круто..
 console.log(Math.round(Math.random() * (29 - 18) + 18));
+
+
+const brand = 'Samsung';
+const normalizeBrand = brand.toLowerCase();
+console.log(brand);   //обичка//Samsung
+console.log(normalizeBrand);  //нормалізує  //samsung
+
+
+const pricePerDroid = 800;
+const orderedQuantity = 6;
+const deliveryFee = 50;
+const totalPrice = (pricePerDroid * orderedQuantity + deliveryFee);
+const message = `You ordered droids worth ${totalPrice} credits. Delivery (${deliveryFee} credits) is included in total price.`
+console.log(message); //You ordered droids worth 4850 credits. Delivery (50 credits) is included in total price.
+
+
+//Функція і визов функції
+function sayHi() {
+    console.log("Hello Akseiev, this is my first function!");
+}
+sayHi(); //Hello Akseiev, this is my first function!
+
