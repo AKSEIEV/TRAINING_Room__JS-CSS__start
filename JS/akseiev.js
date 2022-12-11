@@ -2,6 +2,8 @@
 "use strict";
 // Це коментар. Далі йде увесь код JS-файлу
                                                //чорне це- строка , синє- числа
+console.clear()
+
 const x = 10;
 const y = 5;
 console.log("x > y:", x > y);
@@ -14,7 +16,7 @@ console.log(x / y); //2
 console.log(x % y); //0
 
 let value = 5;
-console.log(value * y); //25
+console.log(value * y);//25
 
 value += 10;
 console.log(value); //15
@@ -98,4 +100,48 @@ function sayHi() {
     console.log("Hello Akseiev, this is my first function!");
 }
 sayHi(); //Hello Akseiev, this is my first function!
+
+const age = 20;
+const type = age >= 18 ? "adult" : "child";
+console.log(type); // "adult"
+
+
+
+let cost;
+const subscription = "premium";
+switch (subscription) {
+  case "free":
+    cost = 0;
+    break;
+
+  case "pro":
+    cost = 100;
+    break;
+
+  case "premium":
+    cost = 500;
+    break;
+
+  default:
+    console.log("Invalid subscription type");
+}
+
+console.log(cost); // 500
+
+
+
+let counter = 0;
+while (counter < 6) {
+  console.log("counter: ", counter);
+  counter += 1; //counter: 0,1,2,3,4,5
+}
+
+for (let i = 0; i <= 20; i += 5) {
+  console.log(i); //0,5,10,15,20
+}
+
+// for (let i = 33; i >= 3; i -= 3) {
+//   console.log(i);
+// }
+
 
