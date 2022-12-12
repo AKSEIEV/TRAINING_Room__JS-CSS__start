@@ -140,8 +140,17 @@ for (let i = 0; i <= 20; i += 5) {
   console.log(i); //0,5,10,15,20
 }
 
-// for (let i = 33; i >= 3; i -= 3) {
-//   console.log(i);
-// }
+const friends = ["Kostiantyn" ,  "Alina" ,  "Dima"]; 
+friends[1] = "Kiril"
+console.table(friends);
+
+
+const akseievCard = [10, 20, 30, 40];
+let total = 0;
+//використовується FOR...OF.коли не нада доступ до щьочика і не нада перезаписувати нічо по індеку. якшо нада_то просто FOR
+for (const value of akseievCard) {
+  total += value;
+}
+console.log('vsego: ', total); //vsego: 100
 
 
