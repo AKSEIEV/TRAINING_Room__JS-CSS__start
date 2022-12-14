@@ -154,3 +154,11 @@ for (const value of akseievCard) {
 console.log('vsego: ', total); //vsego: 100
 
 
+
+
+
+
+
+ 
+ 
+
